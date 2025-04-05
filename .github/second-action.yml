@@ -1,0 +1,10 @@
+name: Second Work Flow
+on: workflow_dispatch
+jobs:
+  first-job:
+    run-on: windows-latest
+    steps:
+      - name: Print greeting
+        run: echo "Hellow world - Secion Action"
+      - name: Print Good Bye
+        run: echo "Good Bye"
